@@ -45,8 +45,7 @@ namespace StudentTest.Test
             endpointUrl = ConfigurationManager.AppSettings["endpointUrl"].ToString();
            // endpointUrl = "http://thetestingworldapi.com";
             studentGetAllResource = "/api/studentsDetails";
-            studentPOSTResource = "/api/studentsDetails";
-           
+            studentPOSTResource = "/api/studentsDetails";           
             reportUtils.CreatetestCase("Pre-requisite");
             reportUtils.AddLogs(Status.Info, $"Executing test case at environment");
 
